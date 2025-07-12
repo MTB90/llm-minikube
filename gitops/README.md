@@ -36,9 +36,9 @@ Based on:
     │   └── overlays
     │       └── minikube
     │           └── kustomization.yaml
-    └── backend-api
+    └── backend
         ├── base
-        │   ├── backend-api-deployment.yaml
+        │   ├── backend-deployment.yaml
         │   └── kustomization.yaml
         └── overlays
             └── minikube

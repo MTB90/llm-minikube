@@ -3,22 +3,22 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    app: backend-api
-  name: backend-api
+    app: backend
+  name: backend
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: backend-api
+      app: backend
   strategy: {}
   template:
     metadata:
       creationTimestamp: null
       labels:
-        app: backend-api
+        app: backend
     spec:
       containers:
       - image: quay.io/redhatworkshops/welcome-php
-        name: backend-api
+        name: backend
         resources: {}
 status: {}
